@@ -1,0 +1,69 @@
+.transition-smooth {
+  transition: all 0.2s ease-out;
+}
+
+.skeleton {
+  animation: skeleton-loading 1s linear infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    opacity: 0.6;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.card-hover {
+  transition: transform 0.2s ease-out, box-shadow 0.2s ease-out, border-color 0.2s ease-out;
+}
+
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  border-color: #CBD5E1;
+}
+
+.btn-primary {
+  background: #0047FF;
+  color: white;
+  transition: all 0.2s ease-out;
+}
+
+.btn-primary:hover {
+  background: #0036CC;
+  color: white;
+}
+
+.btn-secondary {
+  background: white;
+  border: 1px solid #E2E8F0;
+  color: #0A0A0B;
+  transition: all 0.2s ease-out;
+}
+
+.btn-secondary:hover {
+  background: #F8F9FA;
+  color: #0A0A0B;
+}
+
+.table-row-hover {
+  transition: background-color 0.2s ease-out;
+}
+
+.table-row-hover:hover {
+  background-color: #F8F9FA;
+}
+
+.status-badge-active {
+  background: #00C85314;
+  color: #00C853;
+  border: 1px solid #00C85333;
+}
+
+.status-badge-inactive {
+  background: #64748B14;
+  color: #64748B;
+  border: 1px solid #64748B33;
+}
